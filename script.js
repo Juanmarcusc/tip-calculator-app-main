@@ -1,9 +1,12 @@
-console.log("hello word")
 document.getElementById('pegarValor').addEventListener('click', function() {
-    alert('funcionando!')
-    const bill = document.getElementById('inputBill')
+    const bill = number(document.getElementById('inputBill'));
 
-    const valor = bill.value
+    const valor = bill.value;
 
-    console.log(valor)
-})
+    console.log(valor);
+  });
+
+
+  function pegarDesconto(desconto) {
+    console.log(desconto);
+  } 
