@@ -25,17 +25,17 @@
           <button id="buttonCustom">Custom</button>
         </div>
         <h4>Number of people</h4>
-        <input type="number" id="inputPeople" placeholder="0">
+        <input id="inputPeople" onchange="inputPeople()" placeholder="0">
       </div>
       <div class="box2">
         <h4>Tip Amount</h4>
         <h6>/ person</h6>
-        <p>$ <span>0.00</span></p>
+        <p id="contaBillComDesconto">$ 0.00</p>
         <h4>Total</h4>
         <h6>/ person</h6>
-        <p>$ <span>0.00</span></p>
+        <p id="contaParaCadaPessoa">$ 0.00</p>
       </div>
-      <button id="pegarValor" onclick="valorTotalConta()">Aperte</button>
+      <button id="pegarValor" onclick="valorTotalConta(), valorTotalPorPessoa()">Registrar</button>
     </div>
   </div>
 
