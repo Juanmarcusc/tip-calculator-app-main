@@ -1,12 +1,17 @@
-document.getElementById('pegarValor').addEventListener('click', function() {
-    const bill = number(document.getElementById('inputBill'));
+let valorBill = "";
+function inputBill() {
+    const valor = document.getElementById('inputBill').value
+    valorBill = parseFloat(valor);
+    
+}
+let valorDesconto = "";
+function pegarDesconto(desconto) {
+    valorDesconto = parseFloat(desconto)
+    
+} 
 
-    const valor = bill.value;
+function valorTotalConta() {
+    const resultado = valorBill * valorDesconto;
+    console.log(resultado)
 
-    console.log(valor);
-  });
-
-
-  function pegarDesconto(desconto) {
-    console.log(desconto);
-  } 
+}

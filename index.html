@@ -14,14 +14,14 @@
     <div class="wrapper">
       <div class="box1">
         <h4>Bill</h4>
-        <input type="number" id="inputBill" placeholder="$0">
+        <input id="inputBill" onchange="inputBill()" placeholder="$ 0">
         <h4>Select tip %</h4>
         <div class="buttons">
-          <button id="button5" onclick="pegarDesconto(0.05)">5%</button>
-          <button id="button10" onclick="pegarDesconto(0.10)">10%</button>
-          <button id="button15" onclick="pegarDesconto(0.15)">15%</button>
-          <button id="button25" onclick="pegarDesconto(0.25)">25%</button>
-          <button id="button50" onclick="pegarDesconto(0.50)">50%</button>
+          <button onclick="pegarDesconto(0.05)">5%</button>
+          <button onclick="pegarDesconto(0.10)">10%</button>
+          <button onclick="pegarDesconto(0.15)">15%</button>
+          <button onclick="pegarDesconto(0.25)">25%</button>
+          <button onclick="pegarDesconto(0.50)">50%</button>
           <button id="buttonCustom">Custom</button>
         </div>
         <h4>Number of people</h4>
@@ -35,7 +35,7 @@
         <h6>/ person</h6>
         <p>$ <span>0.00</span></p>
       </div>
-      <button onclick="pegarValor()">Aperte</button>
+      <button id="pegarValor" onclick="valorTotalConta()">Aperte</button>
     </div>
   </div>
 
