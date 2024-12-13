@@ -57,9 +57,9 @@
   }
 
   .box2 h4 {
-    font-size: 2em; /* Aumentando o tamanho da fonte */
-    margin-bottom: 20px; /* Ajustando o espaçamento inferior */
-    color: #ffffff; /* Mantendo a cor branca para contraste com o fundo */
+    font-size: 2em; 
+    margin-bottom: 20px; 
+    color: #ffffff; 
   }
   
   
@@ -105,11 +105,11 @@
   }
   
   .box2 p {
-    font-size: 2.5em; /* Aumentando o tamanho da fonte */
+    font-size: 2.5em; 
     margin: 10px 0;
-    font-weight: bold; /* Tornando o texto mais forte */
-    color: #26c0ab; /* Usando uma cor chamativa */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adicionando sombra no texto */
+    font-weight: bold; 
+    color: #26c0ab; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
   }
   
   #pegarValor {
